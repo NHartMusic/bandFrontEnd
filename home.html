@@ -16,7 +16,7 @@
 
   	<link rel="stylesheet" type="text/css" href ="style.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Michroma" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
 
 
   </head>
@@ -37,6 +37,8 @@
 
               <span class="icon-bar"></span>
 
+              <span class="icon-bar"></span>
+
             </button>
 
           </div>
@@ -45,11 +47,21 @@
 
             <ul class="nav navbar-nav">
 
+              <li><a href="home.html">Home</a></li>
+
               <li><a href="bands.html">Bands</a></li>
 
               <li><a href="gigs.html">Gigs</a></li>
 
             </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+
+              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+
+            </form>
 
           </div>
 
@@ -63,36 +75,80 @@
 
       <div class = "col-lg-6" id="bandModule">
 
-        <h1>Penumbrial Rise</h1>
+        <!-- <h1><a href="Rise.html">Penumbrial Rise</a></h1> -->
 
-        <div class="bs-example">
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
-              <!-- Carousel indicators -->
-              <ol class="carousel-indicators">
-                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                  <li data-target="#myCarousel" data-slide-to="2"></li>
-              </ol>
-              <!-- Wrapper for carousel items -->
-              <div class="carousel-inner">
-                  <div class="item active">
-                      <img src="images/clown1.jpg" class="bandPic">
-                  </div>
-                  <div class="item">
-                      <img src="images/clown2.jpg" class="bandPic">
-                  </div>
-                  <div class="item">
-                      <img src="images/clown3.jpg" class="bandPic">
-                  </div>
+        <!-- Large modal -->
+        <button class="btn btn-link" data-toggle="modal" data-target=".bd-example-modal-lg">Penumbrial Rise</button>
+
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+
+          <div class="modal-dialog modal-lg">
+
+            <div class="modal-content">
+
+              <h1>Penumbrial Rise</h1>
+
+              <div class="bs-example">
+
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                    <!-- Carousel indicators -->
+                    <ol class="carousel-indicators">
+
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+
+                    </ol>
+
+                    <!-- Wrapper for carousel items -->
+
+                    <div class="carousel-inner">
+
+                        <div class="item active">
+
+                            <img src="images/clown1.jpg" class="bandPic">
+
+                        </div>
+
+                        <div class="item">
+
+                            <img src="images/clown2.jpg" class="bandPic">
+
+                        </div>
+
+                        <div class="item">
+
+                            <img src="images/clown3.jpg" class="bandPic">
+
+                        </div>
+
+                    </div>
+
+                    <!-- Carousel controls -->
+
+                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+
+                    </a>
+
+                    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+
+                    </a>
+
+                </div>
+
               </div>
-              <!-- Carousel controls -->
-              <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left"></span>
-              </a>
-              <a class="carousel-control right" href="#myCarousel" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right"></span>
-              </a>
+
+            </div>
+
           </div>
+
         </div>
 
       </div>
@@ -100,8 +156,6 @@
     </div>
 
   </div>
-
-
 
 
 

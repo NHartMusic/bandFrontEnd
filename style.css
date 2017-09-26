@@ -8,70 +8,50 @@
   text-align: center;
 }
 
-h1, h2, h3, title, li {
-	font-family: 'Michroma', sans-serif;
+h1, h2, h3, title, li, .btn, a {
+	font-family: 'Monda';
   color: #EEE5E9;
+}
+
+.modal-content, .modal-dialog, .modal-lg {
+  background-color: #7C7C7C;
 }
 
 #bandModule {
   width: 60%;
   margin-left: 20%;
   margin-top: none;
-  border: 2px solid #EEE5E9;
+  border: 2px solid #D64933;
   background-color: #7C7C7C;
+  border-radius: 25px;
   text-align: center;
   align-content: center;
-
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 5px #888888;
 }
 
 .bandPic{
-  height: 280px;
+  height: 100%;
+  width: 100%;
 }
 
 .carousel{
+    border: 2px solid #D64933;
     background: #2f4357;
     margin-top: 20px;
-    
+
 }
 .carousel .item{
-    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+    max-height: 320px;
+    min-height: 260px; /* Prevent carousel from being distorted if for some reason image doesn't load */
 }
 .carousel .item img{
     margin: 0 auto; /* Align slide image horizontally center */
+    margin-top: 0 auto;
+    margin-bottom: 0 auto;
 }
 .bs-example{
 	margin: 20px;
 }
 
 .carousel-control { background: none !important; filter: none !important; progid:none !important; }
-
-#Soundcloud{
-
-	height: 200px;
-  border: 2px solid #EEE5E9;
-  background-color: #7C7C7C;
-  text-align: center;
-  align-content: center;
-
-}
-
-#Bandcamp{
-
-	height: 500px;
-  border: 2px solid #EEE5E9;
-  background-color: #7C7C7C;
-  text-align: center;
-  align-content: center;
-
-}
-
-#Spotify{
-
-	height: 500px;
-  border: 2px solid #EEE5E9;
-  background-color: #7C7C7C;
-  text-align: center;
-  align-content: center;
-
-
-}
